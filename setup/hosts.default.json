@@ -1,0 +1,9 @@
+{
+  "lumerical_license": "1055@lume-station",
+  "hosts": {
+    "MS-1": { "margin": 3 },
+    "MS-2": { "margin": 3 },
+    "MS-3": { "margin": 4 },
+    "MS-4": { "margin": 2 }
+  }
+}

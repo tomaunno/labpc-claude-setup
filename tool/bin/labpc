@@ -1,0 +1,3 @@
+#!/bin/sh
+# labpc: Git Bash から呼ぶための入口(本体は ../labpc.ps1。中身は labpc.cmd と同じ)
+exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(cygpath -w "$(dirname "$0")/../labpc.ps1")" "$@"
